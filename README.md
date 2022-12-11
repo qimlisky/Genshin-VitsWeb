@@ -1,17 +1,11 @@
 # Genshin-VitsWeb
-这是一个让你的原神可以按你输入的文字转语音
-pip升级到22.2.2！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！
-setuptools到 65.4.1！！！！！！！！！！！！！！！！！！！！！！！！！！！
-wheel 到0.37.1！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！
-
-anaconda，miniconda就行
-pip源https://mirrors.tuna.tsinghua.edu.cn/help/pypi/（pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple）
-百度conda换源
 
 快速调用 Vits ;在 Web 生成语音
 
 部署指南
-
+你可以尝试用miniconda
+pip源https://mirrors.tuna.tsinghua.edu.cn/help/pypi/（pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple）
+百度conda换源
 conda create -n （自己取一个例如voice） python=3.8 -y
 conda activate 自己取一个例如voice一致）
 git clone https://github.com/HuanLinMaster/Genshin-VitsWeb
