@@ -2,10 +2,16 @@
 
 快速调用 Vits ;在 Web 生成语音
 
-部署指南
+## 部署指南
 你可以尝试用miniconda
 pip源https://mirrors.tuna.tsinghua.edu.cn/help/pypi/（pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple）
 百度conda换源
+
+| 软件名      | 下载链接    |
+| ----------- | ----------- |
+| Git         | [点我下载](https://ghproxy.com/github.com/git-for-windows/git/releases/download/v2.37.3.windows.1/Git-2.37.3-64-bit.exe)       |
+| Miniconda   | [点我下载](https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe)        |
+如果你是小白 并且以上提及的几款软件你全都没装 [请看这里](install.md)
 conda create -n （自己取一个例如voice） python=3.8 -y
 conda activate 自己取一个例如voice一致）
 git clone https://github.com/HuanLinMaster/Genshin-VitsWeb
