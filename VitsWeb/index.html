@@ -4,7 +4,7 @@
     
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="http://150.158.164.18:9069/logo.png">
+    <link rel="shortcut icon" href="./res/logo.b6da5a8e.png">
     <link rel="stylesheet" href="./res/index.css">
     <!-- MDUI CSS -->
 <link
@@ -74,10 +74,16 @@ crossorigin="anonymous"
         </div>
         <div class="btns">
             <button class="produce">生成</button>
+            
+
             <audio controls="" class="player" src="">
                 <source src="">
             </audio>
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
         <div class="intro">
             <div class="intro-item">参数说明</div>
             <div class="info">
@@ -87,19 +93,28 @@ crossorigin="anonymous"
                     <li><span>感情：</span>可用于控制感情变化程度，默认为0.66。</li>
                     <li><span>音素发音长度：</span>可用于控制音节发音长度变化程度，默认为0.8。</li>
                     <li><span>语速：</span>默认为1.2。</li>
-                    <li><span>生成语音格式：</span>必须为mp3或者wav。</li>
+                    <li><span>生成语音格式：</span>必须为mp3或者wav。
+                    <li></span>稳定链接(协议问题，无法使用)</li><audio controls="controls" loop="loop">
+                        <audio src="https://192.168.1.101/vits/output.wav" type="https://192.168.1.101/vits/output.wav"></source>
+                        </audio>
+                        <br />
                 </ul>
             </div>
         </div>
     </div>
     <div class="footer">
-        <span class="source">API来源 : &nbsp;<a href="https://github.com/w4123/vits" target="_blank">https://github.com/w4123/vits</a>&nbsp;- 禁止用于任何商业用途</span>
-        <span class="designer">Design By&nbsp;<a target="_blank" href="https://space.bilibili.com/174976202?spm_id_from=333.1007.0.0">Gin</a></span>
+        <span class="source"> 最后：模型贡献者<a href="https://github.com/Stardust-minus/vits" target="_blank">https://github.com/Stardust-minus/vits</a>&nbsp; </span> 
+        
+        <span class="designer">软件编译封装作者<a href="https://github.com/HuanLinMaster/Genshin-VitsWeb/" target="_blank">https://github.com/HuanLinMaster/Genshin-VitsWeb/</a>&nbsp;</span>
+        
+        <span class="source"> 禁止用于任何商业用途,请合理使用&nbsp;</span>
+        <span class="designer">Design By&nbsp;<a target="_blank" href="https://space.bilibili.com/174976202?spm_id_from=333.1007.0.0">Gin(作者)</a></span>
     </div>
     <div class="hl-loading">
         <div class="hl-loading-box">
-            <div class="hl-loading-text">少女祈祷中...</div>
-            <button class="hl-loading-btn" onclick="CanplayEvent()">强制关闭</button>
+            <div class="hl-loading-text" style='color:rgb(49, 157, 218)'> 正在向原神学习中，请耐心等候</div>
+            
+            <button class="hl-loading-btn" style='background-color:rgb(188, 164, 255) 'onclick="CanplayEvent()">强制关闭，不建议</button>
         </div>
     </div>
     <!-- js -->
