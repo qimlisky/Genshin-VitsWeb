@@ -53,7 +53,7 @@ const getData = () => {
             mdui.snackbar({
                 message: '已完成请求'
             });
-            document.getElementsByClassName("hl-loading-text")[0].innerHTML = "加载完毕"
+            document.getElementsByClassName("hl-loading-text")[0].innerHTML = "加载完毕，但可能没有加载完毕，尽量不要强制关闭，成功后会自动关闭的"
             setTimeout(() => {
                 document.getElementsByClassName("hl-loading")[0].setAttribute("style","opacity: 0;");
                 setTimeout(() => {
@@ -65,22 +65,22 @@ const getData = () => {
             mdui.snackbar({
                 message: '任务将在后台进行'
             });
-            document.getElementsByClassName("hl-loading-text")[0].innerHTML = "加载完毕"
+            document.getElementsByClassName("hl-loading-text")[0].innerHTML = "加载完毕，但可能没有加载完毕，尽量不要强制关闭，成功后会自动关闭的"
             setTimeout(() => {
                 document.getElementsByClassName("hl-loading")[0].setAttribute("style","opacity: 0;");
                 setTimeout(() => {
                     document.getElementsByClassName("hl-loading")[0].setAttribute("style","display: none;");
-                    document.getElementsByClassName("hl-loading-text")[0].innerHTML = "少女祈祷中"
+                    document.getElementsByClassName("hl-loading-text")[0].innerHTML = "正在学习中"
                 }, 300);
             }, 1000);
         }
         node.onerror = ()=>{
-            document.getElementsByClassName("hl-loading-text")[0].innerHTML = "加载失败"
+            document.getElementsByClassName("hl-loading-text")[0].innerHTML = "加载失败，那就是加载失败了"
             setTimeout(() => {
                 document.getElementsByClassName("hl-loading")[0].setAttribute("style","opacity: 0;");
                 setTimeout(() => {
                     document.getElementsByClassName("hl-loading")[0].setAttribute("style","display: none;");
-                    document.getElementsByClassName("hl-loading-text")[0].innerHTML = "少女祈祷中"
+                    document.getElementsByClassName("hl-loading-text")[0].innerHTML = "正在学习中"
 
                 }, 300);
             }, 1000);
